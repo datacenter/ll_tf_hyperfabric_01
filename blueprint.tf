@@ -6,3 +6,4 @@ resource "hyperfabric_fabric" "fabric1" {
   name        = local.fabric_name
   description = "This fabric is created by terraform"
 }
+
