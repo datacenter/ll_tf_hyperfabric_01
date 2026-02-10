@@ -17,7 +17,7 @@ resource "hyperfabric_node" "node1" {
 resource "hyperfabric_node" "node2" {
   fabric_id  = hyperfabric_fabric.fabric1.id
   name       = "spine1"
-  model_name = var.model_name
+  model_name = hyperfabric_fabric.node1.model_name
   roles      = ["SPINE"]
 }
 
