@@ -9,7 +9,7 @@ variable "fabric_name_prefix" {
   default = "DEVWKS1440-"
 }
 
-variable "leaf_model_name" {
+variable "model_name" {
   description = "Name of the Model of Leaf"
   type        = string
   default     = "HF6100-32D"
